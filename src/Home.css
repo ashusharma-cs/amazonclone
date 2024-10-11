@@ -1,0 +1,27 @@
+.home{
+    max-width: 1500px;
+  
+}
+
+
+
+
+.home__image{
+    width: 100%;
+    /* height: 100%; */
+
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    max-width: 1500px;
+    /* border: 2px solid green; */
+    z-index: -1;
+    margin-bottom: -150px;
+
+}
+
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid green; */
+}
